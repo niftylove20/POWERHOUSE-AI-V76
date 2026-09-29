@@ -1,0 +1,27 @@
+POWERHOUSE AI V74.3 FIX2 — LEVEL MAP / CHART VISIBILITY VERIFICATION
+
+FIXED
+- Larger desktop and mobile chart workspace
+- Always-visible ribbon: Demand Zone, Support, Resistance, Supply Zone, Call Wall, Put Wall
+- Demand/Supply zones drawn directly on the price chart
+- Support/Resistance drawn directly on the price chart
+- Call/Put OI walls drawn directly on the price chart when provider option-chain data exists
+- Call/Put wall OI and ΔOI visible in the OI wall panel
+- ATM CE/PE OI change, volume, IV, Delta and Gamma visible
+- Support/Resistance fallback derives only from actual provider candles when engine levels are absent
+- Demand/Supply fallback derives only from actual provider candles + ATR when engine zones are absent
+- Missing market-depth pressure no longer renders a synthetic 50/50 bar
+- RSI/MACD mini-panels no longer draw synthetic sine-wave curves; absent real series = N/A
+- Index-card synthetic sparkline removed
+
+VERIFICATION
+- JavaScript syntax: PASS
+- Python compile: PASS
+- FastAPI root: HTTP 200
+- Feature manifest: 24/24 PASS
+- TEST_V74_3_PRECISION.py: PASS
+- TEST_V74_2_CALLS.py: PASS
+
+TRUTH POLICY
+No demo/synthetic market values are substituted for unavailable provider/engine data.
+Candle-derived zones/levels are explicitly derived from real provider candles and are not guaranteed future support/resistance.

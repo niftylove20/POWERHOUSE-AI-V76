@@ -1,0 +1,30 @@
+POWERHOUSE AI V74.2 — VERIFICATION REPORT
+
+Validated build: 74.2-autonomous-call-intelligence
+API compatibility version: 74.0
+
+PASS
+- Python compile: v74_engine.py, v74_app.py, upstox_service.py
+- Full cumulative Python compile
+- Existing regression suite V53 through V74
+- Dedicated V74.2 CALL ENGINE / journal / workspace / shadow regression
+- Total TEST_*.py: 28/28 PASS
+- JavaScript syntax check for static/v74.html
+- 9 merged UI workspaces present
+- 35 legacy feature IDs preserved
+- /api/v74/status cache-only scanner path retained
+- /api/v74/calls present
+- /api/v74/call/{symbol} present
+- /api/v74/journal present
+- /api/v74/alerts present
+- /api/health present
+- No pre_move_radar(... record=True) census trigger remains in v74_app request routes
+- Call lifecycle synthetic check: READY -> T1 HIT persisted to journal
+- CALL_ENGINE alert synthetic check PASS
+
+Important production notes
+- Full scan reads verified Upstox in-memory snapshots. Hot Lane is evidence refresh, not a separate raw exchange feed.
+- Automatic option-chain/chart deep scans are rate-bounded; they do make read-only provider API calls.
+- SQLite journal is only deploy-durable when POWERHOUSE_V74_DB_PATH points to persistent storage.
+- Same-snapshot V73/V74 shadow comparison measures stage timing differences, not realized profitability.
+- No guarantee of accuracy, profit, or movement capture is made.

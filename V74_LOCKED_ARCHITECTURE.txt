@@ -1,0 +1,201 @@
+POWERHOUSE AI V74 — LOCKED FINAL DIRECTION
+
+MISSION
+MAXIMUM MOVE CAPTURE + EARLY DETECTION + HIGH-QUALITY EXECUTION + ZERO AVOIDABLE MISSES.
+
+BOUNDARY
+100% movement capture is an engineering coverage/accountability target, never a guarantee of profitability or future market knowledge.
+Read-only market intelligence only. No automatic broker order placement.
+No fake LIVE data, no silent stale-data fallback, no guaranteed returns.
+
+BASELINE
+V74 is additive over the cumulative V73 LTS → V72.2 stack. Preserve all working prior-version logic and legacy endpoints.
+
+TOP-LEVEL TABS — FLAT, NO “MORE” HIDING IMPORTANT DATA
+COMMAND | LIVE MARKET | RADAR | PRE-MOVE | HERO | AUTO TRENDER | BREAKOUT | REVERSAL | SUPPLY-DEMAND | SECTORS | HEATMAP | GAINERS-LOSERS | FAST MOVERS | DERIVATIVES | OPTION CHAIN | OI | FUTURES | GREEKS | IV | EXPIRY | VOLUME | ORDER FLOW | DEPTH | SMART MONEY | CHART | PATTERNS | CANDLESTICKS | VIX | CIRCUITS | ALERTS | RE-ENTRY | MISSED MOVES | REPLAY | PERFORMANCE | SYSTEM
+
+BIG MOVE CAPTURE ENGINE 5.0 — SEVEN INDEPENDENT SCOUTS
+1. Price Scout — sampled 15s/30s/60s velocity, acceleration, range expansion where available.
+2. Volume Scout — RVOL, volume velocity, turnover acceleration.
+3. OI Scout — OI velocity, ΔOI acceleration, futures buildup.
+4. Sector Scout — sector ignition, breadth thrust, leader/follower evidence.
+5. Order-Flow Scout — bid refill, ask depletion, absorption, liquidity vacuum, depth pressure/spread.
+6. Pattern Scout — developing breakout/reversal/compression patterns with location context.
+7. Options Scout — premium response/acceleration, OI wall/strike migration, IV/gamma evidence.
+
+A missing scout is UNAVAILABLE, not silently scored as neutral. One scout can discover a candidate even if another source is unavailable; promotion still requires sufficient evidence.
+
+100 MOVEMENT CAPTURE / COVERAGE DASHBOARD
+Permanently expose:
+- Universe Coverage
+- Fresh Quotes
+- Symbols Scanned
+- Meaningful Moves Today
+- Moves Detected Early
+- Moves Detected Late
+- Moves Completely Missed
+- Average Lead Time
+- Coverage State
+Silent misses are forbidden.
+
+MOVE CLASSES
+MICRO MOVE
+TRADEABLE MOVE
+BIG MOVE
+SECTOR MOVE
+BREAKOUT MOVE
+REVERSAL MOVE
+CIRCUIT MOVE
+EXPIRY GAMMA MOVE
+Micro noise is not counted as a meaningful move.
+
+CANDIDATE LIFECYCLE
+DISCOVERY → EARLY CLUE → BUILDING → ACCELERATING → ARMING → TRIGGER NEAR → TRIGGER READY → HERO → ENTRY ACTIVE → T1 → T2 → T3 → RUNNER → EXIT / RE-ENTRY
+A candidate must not disappear merely because one candle/scout weakens. Evidence memory and second-chance scanning remain active.
+
+SECOND-CHANCE / RE-ENTRY SCANS
+Breakout Retest
+VWAP Reclaim
+Demand Retest
+Supply Flip
+Pullback Continuation
+EMA/VWAP Hold
+Option Premium Re-acceleration
+Alternate Strike
+Re-entry
+First entry missed must not automatically mean entire move missed.
+
+BIG MOVE EARLY WARNING
+WATCH → EARLY BUILD → PRESSURE RISING → BREAK IMMINENT → MOVE ACTIVE
+This is evidence progression, not fake prediction.
+Inputs: price acceleration, RVOL acceleration, OI acceleration, sector ignition, depth change, supply weakening, premium response, volatility expansion, multi-timeframe structure.
+
+HERO 5.0 — REQUIRED OUTPUT
+CALL / PUT / WAIT
+Symbol
+Expiry
+Strike
+Premium
+Entry Low
+Ideal Entry
+Entry High
+Do Not Chase
+SL
+Structural SL
+Time Stop
+T1
+T2
+T3
+Extended Target
+Trailing Rule
+Re-entry
+Liquidity Grade
+Spread
+Depth
+OI State
+IV State
+VIX Regime
+Sector Strength
+Pattern
+Supply/Demand
+Break Pressure
+Premium Response
+Why Now
+Why This Strike
+What Changed
+What Invalidates
+
+HERO HARD BLOCKERS
+Data stale
+Spread wide
+Liquidity poor
+Premium not responding
+Sector conflict
+OI conflict
+False-break evidence
+Late/crowded/exhausted entry
+VIX shock
+Poor R:R
+Expiry theta danger
+Multi-timeframe conflict
+
+Opportunity discovery stays broad. Trade qualification stays strict.
+
+PROFITABILITY INTELLIGENCE
+Use observed records only:
+Pattern | Regime | Session | Sector | Entry type | Strike quality | Observed follow-through | MFE | MAE | Average R | False breakout rate | Median lead time | Sample size
+Never print unsupported probability claims such as “92% win probability”. Small/synthetic samples never become predictive probabilities.
+
+PATTERN + CANDLESTICK CONTEXT
+Pattern/candle evidence must be interpreted with location + volume + OI + sector + depth + premium response + VIX regime. Candlestick alone has low weight.
+
+DERIVATIVES SUPER ENGINE TARGETS
+OI Wall Migration
+OI Velocity
+PCR Velocity
+ATM Straddle
+Expected Move
+IV Expansion/Compression
+Skew
+Gamma Concentration
+Theta Burn
+Premium Elasticity
+Premium Failure
+Strike Migration
+Multi-expiry Comparison
+Futures Basis
+Futures OI Buildup
+Rollover Intelligence
+Expiry Pin Zones
+Unavailable fields stay explicitly unavailable until the provider supplies them.
+
+CHART SUPER ENGINE TARGETS
+Supply/Demand
+Support/Resistance
+VWAP
+AVWAP
+EMA
+Volume Profile
+POC/VAH/VAL
+Fib
+OI Walls
+Break Pressure
+Pattern Zones
+Hero Entry
+SL
+T1/T2/T3
+Discovery Marker
+Arming Marker
+Hero Marker
+Re-entry Marker
+Bottom evidence: Volume | ΔOI | Depth Imbalance | Premium Response
+
+MISS KILLER 2.0 — ROOT-CAUSE TAXONOMY
+NOT DISCOVERED
+DISCOVERED LATE
+PROMOTION TOO SLOW
+OPTION CHAIN DELAY
+FEED STALE
+THRESHOLD TOO STRICT
+SECTOR FILTER BLOCKED
+PATTERN LATE
+UI DELAY
+PREMIUM RESPONSE LATE
+RATE LIMIT
+Daily audit must count repeated causes. Every observed meaningful miss receives a classification; silent miss is not permitted.
+
+SESSION BRAINS
+09:15–09:30 OPENING BRAIN: gap, opening volume, opening range, VWAP, sector leadership, first breakout, first failure.
+14:45–15:30 CLOSING BRAIN: short covering, long unwinding, closing momentum, expiry pressure, overnight risk.
+EXPIRY BRAIN: gamma, theta, pinning, wall migration, premium decay, Hero-Zero mode, late-entry block.
+
+V74 FLOW
+Whole Universe Scout → Early Clue Pool → Acceleration Engine → Deep Scan → Derivative Confirmation → Hero → Entry → Dynamic Management → Re-entry → Miss Audit → Replay → Calibration
+
+LOCKED OPERATING PHILOSOPHY
+100% profitability: NOT CLAIMED.
+100% guaranteed capture: NOT CLAIMED.
+100% accountability: TARGET.
+100% coverage auditing: TARGET.
+Zero avoidable misses: ENGINEERING GOAL.
+Every meaningful move must either be detected or explicitly logged with why it was missed.

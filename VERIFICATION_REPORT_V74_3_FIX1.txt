@@ -1,0 +1,19 @@
+POWERHOUSE AI V74.3 FIX1 — VERIFICATION
+
+PASS: Python compile for changed/runtime files
+PASS: JavaScript syntax (node --check)
+PASS: FastAPI root GET 200
+PASS: /api/v74.3/index-command route registered
+PASS: Feature Manifest 24/24, Regression Guard PASS
+PASS: TEST_V74_3_PRECISION.py
+PASS: TEST_V74_2_CALLS.py
+PASS: INDEX CALLS uses index-only source
+PASS: HEATWAVE and SECTORS have different render paths
+PASS: AUTO TRENDER includes acceleration/volume/OI
+PASS: ULTRA DERIVATIVES visible on mobile
+PASS: CE/PE OI Change fields visible
+PASS: SUPPLY/DEMAND dedicated module
+PASS: S/R BREAK dedicated module
+PASS: no fake market numbers added
+
+Deployment remains read-only; no broker order execution.

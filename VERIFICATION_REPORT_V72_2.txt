@@ -1,0 +1,42 @@
+POWERHOUSE AI V72.2 VERIFICATION REPORT
+=======================================
+Build: V72.2 — Timing + Execution Intelligence
+Mode: Read-only analytics / market intelligence
+
+PASS: Python compileall
+PASS: SELF_TEST_AI.py
+PASS: TEST_V53.py
+PASS: TEST_V54.py
+PASS: TEST_V56.py
+PASS: TEST_V57.py
+PASS: TEST_V58.py
+PASS: TEST_V60.py
+PASS: TEST_V60_2.py
+PASS: TEST_V60_3.py
+PASS: TEST_V61.py
+PASS: TEST_V62.py
+PASS: TEST_V63.py
+PASS: TEST_V64.py
+PASS: TEST_V65.py
+PASS: TEST_V66.py
+PASS: TEST_V67.py
+PASS: TEST_V68.py
+PASS: TEST_V70.py
+PASS: TEST_V71.py
+PASS: TEST_V71_3.py
+PASS: TEST_V71_4.py
+PASS: TEST_V71_5.py
+PASS: TEST_V72.py
+PASS: TEST_V72_1.py
+PASS: TEST_V72_2.py
+PASS: TEST_V72_2_AUTH_STATUS.py
+PASS: /api/health HTTP 200, version 72.2
+PASS: /api/v72/status HTTP 200
+PASS: / HTTP 200
+PASS: /manifest.webmanifest HTTP 200
+PASS: frontend inline JS syntax
+PASS: static/sw.js syntax
+PASS: secret scan
+
+Live Upstox data was NOT fabricated or claimed during offline local verification.
+A valid UPSTOX_ACCESS_TOKEN must be configured server-side on Render for authenticated live market data.
