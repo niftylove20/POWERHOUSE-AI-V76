@@ -1,0 +1,30 @@
+POWERHOUSE AI V74.3 — FINAL LOCKED
+
+Final one-pass rebuild after live mobile validation and official data-source research.
+
+CORE FIXES
+- INDEX CALLS is index-only: NIFTY, BANKNIFTY, MIDCPNIFTY, SENSEX.
+- Dedicated `/api/v74.3/index-command` with real index snapshot, expiry, price series and freshness.
+- Added `/api/v74.3/intelligence/{symbol}` truth-preserving adapter.
+- Added Level War Room with Demand/Supply, Support/Resistance, Call/Put Walls, OI change, ATM battle and Break Pressure.
+- Call Wall and Put Wall show strike, OI, previous OI, ΔOI, ΔOI%, share and state.
+- Option Chain shows CE/PE LTP, OI, ΔOI and Volume.
+- Demand/Supply and Support/Resistance are chart-engine-first; candle-derived fallback is explicitly labelled.
+- Support/Resistance Health tracks repeated tests and rejection strength.
+- Chart overlays: Demand, Supply, Support, Resistance, Call Wall, Put Wall and Spot.
+- Real RSI(14) and MACD(12,26,9) calculated from provider candles. Synthetic indicator curves removed.
+- Real index sparkline from provider price series. Hard-coded sparkline removed.
+- Missing depth no longer displays fake 50/50 bid/ask.
+- HEATWAVE and SECTORS are separate: animated strength view vs rotation/hero analytics.
+- AUTO TRENDER 3.0 now exposes Trend, Strength, Acceleration, RVOL, OI Δ%, Sector and Action.
+- ULTRA DERIVATIVES, OPTION CHAIN, OI WALLS, DEPTH/DOM, SUPPLY/DEMAND and S/R BREAK are first-class tabs.
+- Mobile bottom navigation includes direct Index, Chart and Derivatives access.
+- Dark / Light / System theme retained.
+- Service-worker cache bumped so old UI is not silently reused.
+- Functional Regression Guard expanded to truth checks rather than module-name presence alone.
+
+TRUTH / RISK
+- No fake/demo production market data.
+- No forced Hero call; NO HERO SETUP TODAY is valid.
+- No 100% accuracy guarantee; empirical calibration only.
+- Read-only; no automatic broker orders.

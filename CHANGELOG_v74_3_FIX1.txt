@@ -1,0 +1,18 @@
+POWERHOUSE AI V74.3 — UI/DATA FIX 1
+
+Fixed after live mobile review:
+1. INDEX CALLS is now index-only: NIFTY, BANKNIFTY, MIDCPNIFTY, SENSEX.
+2. Added /api/v74.3/index-command to prevent stock rows leaking into index calls.
+3. AUTO TRENDER 3.0 now shows trend, strength, acceleration, RVOL, OI change, sector, stage and action.
+4. HEATWAVE and SECTORS are now separate views. Heatwave is visual/animated; Sectors is ranking/rotation/hero/laggard.
+5. ULTRA DERIVATIVES is visible on mobile and has a bottom-nav shortcut.
+6. Option Chain now shows CE/PE OI CHANGE and volume in addition to OI/LTP.
+7. Ultra Derivatives adds OI change, volume, IV, delta/gamma and chain-derived wall context.
+8. Dedicated SUPPLY/DEMAND tab added.
+9. Dedicated S/R BREAK tab added with Support, Resistance, Break Pressure, Level Attack, OI Walls and Depth.
+10. OI WALLS now calculates highest observed CE/PE OI wall from the loaded provider chain and displays wall OI change.
+11. LEVEL ATTACK now combines spot/support/resistance with ATM CE/PE OI change, option volume, futures/underlying OI, RVOL, premium response, depth and false-break evidence when available.
+12. Mobile no longer hides nav modules after the 8th item.
+13. Feature manifest upgraded from 22 to 24 core UI modules and regression guard passes 24/24.
+
+No demo/fabricated live values are introduced. Missing provider evidence remains N/A/WAIT.

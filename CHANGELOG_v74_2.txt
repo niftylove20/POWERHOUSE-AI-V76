@@ -1,0 +1,27 @@
+POWERHOUSE AI V74.2 — AUTONOMOUS CALL INTELLIGENCE
+
+API compatibility remains version 74.0. Build/release: 74.2-autonomous-call-intelligence.
+
+Major changes
+- Nine merged UI workspaces: COMMAND, MARKET, OPPORTUNITIES, CALLS, DERIVATIVES, FLOW & TECHNICAL, ALERTS, JOURNAL & AUDIT, SYSTEM.
+- All 35 legacy V74 feature identifiers remain available for compatibility.
+- Browser-independent full-universe scanner (default 3s; configurable by V74_SCAN_INTERVAL_SEC).
+- Promoted-symbol Hot Lane (default 1s; configurable by V74_HOT_INTERVAL_SEC) for short-window evidence/history refresh.
+- Automatic, rate-bounded CALL ENGINE deep scan (default 18s; configurable by V74_AUTO_DEEP_INTERVAL_SEC).
+- NIFTY and BANKNIFTY automatic index deep scans by default; configurable by V74_AUTO_INDEX_CODES.
+- Strict CALL ENGINE outputs BUY CE / BUY PE / WAIT plus underlying BUY / SELL / WAIT thesis.
+- Call card includes entry zone, ideal entry, underlying trigger, premium SL, structural SL, T1/T2/T3, extended target, R:R, do-not-chase, time stop, validity, reasons, blockers and re-entry rule.
+- CALL QUALITY is an evidence score, explicitly not a profit probability.
+- Strict gates: fresh evidence, numeric liquidity >=60, numeric spread <=2%, >=4/7 scouts, T1 R:R >=1.15, not-late guard, Hero-ready evidence, Trigger-Near-or-better stage and quality >=72 for READY.
+- Active model calls remain in surveillance even when they leave the promotion queue so T1/T2/T3/SL outcomes can be audited.
+- SQLite call journal with observed last-20/50/100 statistics. Set POWERHOUSE_V74_DB_PATH to a persistent disk path for deploy-to-deploy durability.
+- V73/V74 same-snapshot shadow stage comparator.
+- CALL ENGINE READY/ARMING alerts added to the continuous alert stream.
+- Manual CALL inspector reads automated scanner state; it does not rerun the whole census.
+- Existing NIFTY50 alias, index Option Chain resolver and V74 health ownership fixes retained.
+
+Safety/truth constraints
+- No broker order placement.
+- WAIT and DO NOT CHASE are valid outputs.
+- Observed journal statistics are historical observations, not guarantees of future accuracy.
+- Browser notifications work while the web app/PWA is active and permitted. True closed-app server Web Push still requires a separate push-subscription backend.
