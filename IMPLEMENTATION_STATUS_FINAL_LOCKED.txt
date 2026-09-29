@@ -1,0 +1,34 @@
+POWERHOUSE AI V74.3 FINAL LOCKED — IMPLEMENTATION STATUS
+
+READY / WIRED
+- Dedicated index-only command API and UI
+- NIFTY / BANKNIFTY / MIDCPNIFTY / SENSEX
+- Chart Pro using provider candles
+- Real RSI(14) / MACD(12,26,9) calculation from provider candles
+- Demand / Supply zones
+- Support / Resistance and Level Health
+- Call Wall / Put Wall with OI, previous OI, ΔOI, ΔOI%, wall share and wall state
+- ATM CE/PE OI, ΔOI, Volume and Greeks
+- Level War Room and Break Pressure evidence score
+- Ultra Derivatives, Option Chain, OI Walls, Depth/DOM
+- Separate Heatwave and Sector Analytics
+- Sector Hero / Laggard enrichment from live radar where available
+- Auto Trender 3.0
+- Circuit Hunter
+- Ultra Calls and Expiry Hero strict WAIT policy
+- Smart Money behavioural footprint and aggregate FII/DII views
+- Memory, Replay, Audit, Accuracy, Alerts, Safe/Health states
+- Dark / Light / System
+- Desktop + mobile responsive UI
+- Service worker cache version bumped
+- Functional 24/24 regression manifest and truth checks
+
+DATA-DEPENDENT / FAIL-CLOSED
+- 30-level DOM requires upstream Upstox full_d30 entitlement/subscription.
+- Exact institutional stock/strike identity requires an explicit attributable source; aggregate FII/DII data is never converted into stock attribution.
+- Closed/stale provider sessions may correctly show N/A / STALE / WAIT.
+- Historical Expiry Hero research depth depends on expired-instrument API entitlement and stored/replay data.
+
+NOT ENABLED
+- Automatic broker orders / execution.
+- Guaranteed profit / guaranteed 100% accuracy claims.

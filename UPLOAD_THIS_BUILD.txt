@@ -1,0 +1,61 @@
+POWERHOUSE AI V72.2 — FULL DEPLOY READY BUILD
+==============================================
+
+Purpose
+-------
+This is the complete cumulative source tree for POWERHOUSE AI V72.2 — Timing + Execution Intelligence.
+It is designed to be uploaded to the existing GitHub repository root:
+  ravumeet1320-bot/Powerhouse-ai-v71
+Branch:
+  main
+
+IMPORTANT UPLOAD RULES
+----------------------
+1. Unzip this archive locally.
+2. Upload the CONTENTS of this folder to the repository ROOT, preserving the static/ folder structure.
+3. Replace matching files when GitHub asks.
+4. DO NOT delete unrelated/older files that already exist in the repository unless explicitly listed for deletion.
+5. DO NOT upload a real .env or any Upstox token. Render environment variables remain the source for secrets.
+6. Keep Render UPSTOX_ACCESS_TOKEN only in Render environment variables.
+7. Render start command remains:
+   uvicorn app:app --host 0.0.0.0 --port $PORT
+8. Build command remains:
+   pip install -r requirements.txt
+
+CRITICAL V72.2 RUNTIME FILES
+----------------------------
+app.py
+upstox_service.py
+ai_engine.py
+opportunity_engine.py
+v62_engine.py
+v63_engine.py
+v67_engine.py
+v72_engine.py
+v72_2_engine.py
+static/index.html
+static/manifest.webmanifest
+static/sw.js
+
+AUTH/TRUTH POLICY
+-----------------
+- Server-side UPSTOX_ACCESS_TOKEN is authoritative when configured.
+- Browser/manual token cannot override a configured server token.
+- HTTP 401 auth failures become TOKEN INVALID.
+- LIVE requires a fresh live market tick; stale/delayed data is not labeled LIVE.
+- Read-only analytics only. No broker order execution, automated trading, or fake P&L.
+
+VERIFIED LOCALLY BEFORE PACKAGING
+---------------------------------
+- Python compileall
+- Regression suite from V53 through V72.2
+- Dedicated V72.2 auth/status regression
+- FastAPI /api/health = HTTP 200, version 72.2
+- FastAPI /api/v72/status = HTTP 200 without auth using truthful offline/demo state
+- Homepage and manifest = HTTP 200
+- Frontend inline JavaScript syntax check
+- Service worker JavaScript syntax check
+- Secret scan: no real token/secret included
+
+External dependencies such as a valid Render environment token, Upstox API availability,
+market hours, and network connectivity cannot be guaranteed by a source ZIP.

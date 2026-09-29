@@ -1,0 +1,17 @@
+UPLOAD / REPLACE EXACTLY THESE 4 FILES IN THE CURRENT REPOSITORY:
+1. v74_engine.py
+2. v74_app.py
+3. upstox_service.py
+4. static/v74.html
+
+Do not remove older V72/V73 engine files.
+Render start command remains:
+uvicorn v74_app:app --host 0.0.0.0 --port $PORT
+
+Recommended optional environment variables:
+V74_SCAN_INTERVAL_SEC=3
+V74_HOT_INTERVAL_SEC=1
+V74_AUTO_DEEP_INTERVAL_SEC=18
+V74_AUTO_DEEP_MAX=4
+V74_AUTO_INDEX_CODES=NIFTY,BANKNIFTY
+POWERHOUSE_V74_DB_PATH=<persistent-disk-path-if-configured>

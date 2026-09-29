@@ -1,0 +1,27 @@
+POWERHOUSE AI V74.3 — APPROVED VISUAL + FUNCTIONAL SCOPE LOCK
+
+Visual reference:
+REFERENCE/APPROVED_UI_REFERENCE_DESKTOP_MOBILE.png
+
+Locked presentation requirements:
+- Premium data-dense animated trading-terminal look
+- Desktop and true mobile responsive layouts
+- Dark / Light / System theme required in final UI
+- NIFTY / BANKNIFTY / MIDCPNIFTY / SENSEX index command
+- Explicit POSITIVE / NEGATIVE / MIXED / WAIT states
+- Animated heatwave / heatmaps / sector leaders / sector hero
+- Auto Trender, Ultra Calls, Alerts, Accuracy, Audit, System
+- No fake market data. Missing/stale evidence must remain visible as N/A / WAIT / INSUFFICIENT DATA.
+
+Locked intelligence scope for final product:
+Memory core, Level Memory, Symbol/Index DNA, Expiry Memory, OI-wall memory,
+Smart-money memory, Failure/Missed-Move memory, Replay, Regime/Time-of-Day memory,
+Supply/Demand, Support/Resistance break engine, Volume/OI, Order Book/DOM,
+Ultra Derivatives, Option Chain, OI Walls, Smart Money, FII/DII footprint,
+Circuit Hunter, Expiry Hero, Scenario Engine, Signal Decay, Conflict Resolver,
+Opportunity Ranking, Event Guard, Volatility Regime, Execution Reality,
+Regression Guard, Feature Manifest, Safe Mode, Daily Audit and persistent memory.
+
+Important truth constraint:
+The software must never claim guaranteed or 100% trading accuracy. Hero/Ultra modes
+must abstain with WAIT / NO HERO SETUP when evidence is insufficient or conflicting.

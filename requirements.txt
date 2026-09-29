@@ -1,0 +1,8 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+httpx>=0.27
+python-dotenv>=1.0
+upstox-python-sdk>=2.18.0
+psycopg[binary]>=3.2
+pywebpush>=2.0
+gunicorn>=23.0
